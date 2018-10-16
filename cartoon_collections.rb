@@ -28,5 +28,5 @@ def find_the_cheese(list)
     if cheese_types.includes?(curr)
       return curr
     end
-  end 
+  end
 end
