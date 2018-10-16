@@ -8,10 +8,11 @@ end
 
 def summon_captain_planet(list)
   list.map do |curr|
-    curr[0].upcase!
     curr.concat("!")
+    curr.split
+    curr[0].upcase!
+    curr.join
   end
-  #list
 end
 
 def long_planeteer_calls# code an argument here
