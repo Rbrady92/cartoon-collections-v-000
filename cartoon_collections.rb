@@ -22,7 +22,7 @@ def long_planeteer_calls(list)
   false
 end
 
-def find_the_cheese(list)
+def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
   list.each do |curr|
     if cheese_types.includes?(curr)
