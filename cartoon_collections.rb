@@ -1,5 +1,5 @@
 def roll_call_dwarves(list)
-  count = 0
+  count = 1
   list.each do |curr|
     puts "#{count}.*#{curr}"
     count += 1
