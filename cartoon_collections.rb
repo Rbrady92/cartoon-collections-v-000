@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(list)
   list.map do |curr|
-    curr.first.upcase
+    curr[0].upcase
     curr.concat("!")
   end
   list
