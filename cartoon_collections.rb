@@ -1,9 +1,9 @@
 def roll_call_dwarves(list)
   count = 0
-  list.each do |curr| 
+  list.each do |curr|
     puts "#{count}.*#{curr}"
     count += 1
-  end 
+  end
 end
 
 def summon_captain_planet# code an argument here
