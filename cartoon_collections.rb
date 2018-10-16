@@ -29,4 +29,5 @@ def find_the_cheese(list)
       return curr
     end
   end
+  nil
 end
