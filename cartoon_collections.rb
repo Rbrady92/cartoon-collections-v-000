@@ -11,7 +11,7 @@ def summon_captain_planet(list)
     curr[0].upcase!
     curr.concat("!")
   end
-  list
+  #list
 end
 
 def long_planeteer_calls# code an argument here
